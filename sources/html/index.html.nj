@@ -5,9 +5,337 @@ keywords: keywords, for homepage
 ---
 
 {% extends '_master.html.nj' %}
-
 {% block body -%}
-    <h1>Hello world!</h1>
-    <p>You can get started with source code for this file located at <code>source/html/index.html.nj</code>.</p>
-    <button id="take-me-button" type="button" role="button">Take me there&hellip;</button>
+    <section class="section-1 mt-0 text-white ">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-7">
+                        <h1 class="display-4 d-none d-md-block">Mobile Number Tracker (India) On Google Maps | Mobile Number </h1>
+                        <h1 class="d-md-none">Mobile Number Tracker (India) On Google Maps | Mobile Number </h1>
+                        <p class="my-5">Mobile Number Tracker locates mobile numbers for India on Google Maps with
+                       ... When you're registering your phone, or trying to sell an old one online or even.
+                            Spy WhatsApp chats, Call recordings, GPS locations, Contacts & more without root. Also Spy Facebook, Instagram, Tinder & Gmail.</p>
+                        <div class="btn-toolbar my-5">
+                            <a href="#" class="btn btn-info mr-5 border-0" style="box-shadow: -4px 29px 58px -17px rgba(0,0,0,0.62);"><b>View More</b></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <img src="../images/side-img4.png" width="140%" class="mt-2 d-none d-md-block" >
+                        <img src="../images/side-img4.png" class=" img-fluid d-md-none d-xs-block" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="section-2 my-40 ">
+        <div class="container-fluid text-center">
+             <div class="container">
+                 <h1 class="my-3">Why choose Onespy, not others?</h1>
+                 <p class="md-px-5">Onespy is the most popular and mature spy phone app solution available with thousands of satisfied subscribers
+                     worldwide. You can monitor almost every aspect of phone usage by just installing our app which takes less than 5 minutes
+                     Our easy to customer support and strong bank-level encryption technologies makes usage by just installing</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="container-fluid">
+            <div class="background">
+                <div class="container">
+                    <div class="panel pricing-table">
+                        <div class="pricing-plan">
+                            <img src="../images/a.png" alt="" class="pricing-img">
+                            <h2 class="pricing-header">Standard</h2>
+                            <button class="btn btn-secondary d-md-none" data-toggle="collapse" data-target="#dropdown">CLCIK me</button>
+                            <div id="dropdown" class="collapse">
+                                <ul class="pricing-features">
+                                    <li class="pricing-features-item">WhatsApp Chats</li>
+                                    <li class="pricing-features-item">Tinder Chats</li>
+                                    <li class="pricing-features-item">Facebook Chats</li>
+                                    <li class="pricing-features-item">Instagram Chats</li>
+                                    <li class="pricing-features-item">Skype Chats</li>
+                                </ul>
+                            </div>
+                                <ul class="pricing-features d-none d-sm-block">
+                                    <li class="pricing-features-item">WhatsApp Chats</li>
+                                    <li class="pricing-features-item">Tinder Chats</li>
+                                    <li class="pricing-features-item">Facebook Chats</li>
+                                    <li class="pricing-features-item">Instagram Chats</li>
+                                    <li class="pricing-features-item">Skype Chats</li>
+                                </ul>
+                            <span class="pricing-price">Free</span>
+                            <a href="#/" class="pricing-button">Sign up</a>
+                        </div>
+                        <div class="pricing-plan">
+                            <img src="../images/a.png" alt="" class="pricing-img">
+                            <h2 class="pricing-header">Premium</h2>
+                            <ul class="pricing-features">
+                                <li class="pricing-features-item">WhatsApp Chats</li>
+                                <li class="pricing-features-item">Tinder Chats</li>
+                                <li class="pricing-features-item">Facebook Chats</li>
+                                <li class="pricing-features-item">Instagram Chats</li>
+                                <li class="pricing-features-item">Skype Chats</li>
+                            </ul>
+                            <span class="pricing-price">$150</span>
+                            <a href="#/" class="pricing-button is-featured btn">Free trial</a>
+                        </div>
+                        <div class="pricing-plan">
+                            <img src="../images/a.png" alt="" class="pricing-img">
+                            <h2 class="pricing-header">Ultra</h2>
+                            <ul class="pricing-features">
+                                <li class="pricing-features-item">WhatsApp Chats</li>
+                                <li class="pricing-features-item">Tinder Chats</li>
+                                <li class="pricing-features-item">Facebook Chats</li>
+                                <li class="pricing-features-item">Instagram Chats</li>
+                                <li class="pricing-features-item">Skype Chats</li>
+                            </ul>
+                            <span class="pricing-price">$400</span>
+                            <a href="#/" class="pricing-button">Free trial</a>
+                        </div>
+                    </div>
+                    <p class="my-5 text-center md-mx-5 text-secondary" >Our primary aim for developing Onespy has always been empowering parents and family elders
+                        safe-guarding children or minors.With Onespy, you can easily track their locations, calls,</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <h1 class="my-3 text-center  "> Parental Control & Monitoring And Spy on mobile </h1>
+                    <p class="text-secondary mb-5">Our primary aim for developing Onespy has always been empowering parents and family elders</p>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="card" style="width: 100%; border-radius: 10px;  ">
+                            <img class="card-img-top" src="../images/3362.jpg" alt="Card image cap" style="border-radius: 10px; ">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary">WhatsApp Monitoring</h5>
+                                <p class="card-text my-3 text-dark">Some quick example text to build on the card title and make up the bulk of the card's content
+                                    you can easily track their locations, calls.</p>
+                                <a href="#" class="btn-primary btn">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 my-5 my-md-0">
+                        <div class="card" style="width: 100%; border-radius: 10px;  ">
+                            <img class="card-img-top" src="../images/employee.jpg" alt="Card image cap" style="border-radius: 10px; ">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary">Employee Monitoring</h5>
+                                <p class="card-text my-3 text-dark">Some quick example text to build on the card title and make up the bulk of the card's content
+                                    you can easily track their locations, calls.</p>
+                                <a href="#" class="btn-primary btn">View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-4 py-5" >
+         <div class="container-fluid py-40" >
+            <div class="container my-5">
+                <h2 class="my-5 text-dark-10  text-secondary">Features for the Android Application</h2>
+                <div class="row">
+                <div class="col-sm-6 col-md-3 col-6">
+                    <p class="lead">
+                        <img src="../images/contacts.png" class="mr-2"> </i><a href="/spy-contacts.html">Contacts</a>
+                    </p>
+                    <p class="lead">
+                        <img src="../images/call.png" class="mr-2"><a href="/call-tracker.html">Phone Calls</a>
+                    </p>
+                    <p class="lead">
+                        <img src="../images/chat.png" class="mr-2"> <a href="/sms-spy.html">SMS Messages</a>
+                    </p>
+                </div>
+                 <div class="col-sm-6 col-md-3 col-6">
+                        <p class="lead">
+                            <img src="../images/whatsapp.png" class="mr-2"> <a href="/spy-contacts.html">WhatsApp</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/contacts.png" class="mr-2"> <a href="/call-tracker.html">Tinder</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/contacts.png" class="mr-2"> <a href="/sms-spy.html">SMS chats</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-3">
+                        <p class="lead">
+                           <img src="../images/contacts.png" class="mr-2"> <a href="/spy-contacts.html">Tinder</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/contacts.png" class="mr-2"> <a href="/call-tracker.html">Messenger</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/Message.png" class="mr-2"><a href="/sms-spy.html">SMS chats</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-6 col-md-3">
+                        <p class="lead">
+                            <img src="../images/Message.png" class="mr-2"><a href="/sms-spy.html">SMS chats</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/Message.png" class="mr-2"><a href="/sms-spy.html">SMS chats</a>
+                        </p>
+                        <p class="lead">
+                            <img src="../images/Message.png" class="mr-2"><a href="/sms-spy.html">SMS chats</a>
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+    </section>
+    <section class="section-5 my-4">
+        <div class="conatainer-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-6" width="100%" >
+                        <div class="box p-3 bg-danger " style="border-radius: 10px;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h4 class="text-white">Hidden Call Recorder</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6" mt-md-0 mt-4 width="100%" >
+                        <div class="box p-3  mt-md-0 mt-4" style="border-radius: 10px; background-color: #159f85;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h4 class="text-white">WhatsApp Tracker</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 mt-md-0 mt-4" width="100%" >
+                        <div class="box p-3 "style="border-radius: 10px; background-color: #4fbde4;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="far fa-images" ></i>
+                            </div>
+                            <h4 class="text-white ">Photo Tracker</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 mt-md-4" width="100%" >
+                        <div class="box p-3 mt-md-0 mt-4 bg-secondary"style="border-radius: 10px;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="fas fa-microphone-alt"></i>
+                            </div>
+                            <h4 class="text-white">Hidden Voice Recorder</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 mt-md-4 width="100%" >
+                        <div class="box p-3 mt-md-0 mt-4"style="border-radius: 10px; background-color: #00bcd4;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="far fa-images"></i>
+                            </div>
+                            <h4 class="text-white">PhoneBook Contacts</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6 mt-md-4 " width="100%" >
+                        <div class="box p-3 mt-md-0 mt-4"style="border-radius: 10px; background-color: #ff9800;">
+                            <div class="circle d-none d-sm-block">
+                                <i class="fas fa-map-marker"></i>
+                            </div>
+                            <h4 class="text-white">Location Tracker</h4>
+                            <p class="text-white">
+                                Hidden Call Recorder
+                                ONESPY's hidden call recorder feature lets you record all incoming & outgoing calls.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-secondary my-3 mb-5 text-center">Onespy is the most popular and mature phone monitoring software solution available with thousands of satisfied
+                    You can monitor almost every aspect of phone usage by just installing our software which takes less than 5 minutes. subscribers worldwide</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-6  my-5 py-5" style="clip-path: polygon(100% 0, 100% 92%, 0 100%, 0 8%);">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-6 col-md-4 text-center install-box p-4">
+                            <img src="/images/purchase.png">
+                            <hr>
+                            <h4 class="text-center text-primary"><strong>Purchase</strong></h4>
+                            <p class="text-secondary">Select ONESPY package from website, purchase the app, and check your email for download link.</p>
+                        </div>
+                    <div class="col-sm-6 col-md-4 text-center p-4 install-box" style=" background: #f1f1f1; color: white;transform: translateY(-20px);transition: 0.2s;border-radius: 10px;">
+                        <img src="/images/download.png">
+                        <hr>
+                        <h4 class="text-center text-primary"><strong>Download</strong></h4>
+                        <p class="text-secondary">Follow instructions in email to download the app and install ONESPY on the target device.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center p-4 install-box">
+                        <img src="/images/login.png">
+                        <hr>
+                        <h4 class="text-center text-primary"><strong>Log In</strong></h4>
+                        <p class="text-secondary">Select ONESPY package from website, purchase the app, and check your email for download link.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="section-7 container ">
+    <h1 class="text-center text-primary my-md-5">Testimonial</h1>
+    <div class="slideshow-container container">
+        <div class="mySlides text-center">
+                <img class="mr-3" src="/images/men.png" width="120px">
+                <div class="media-body">
+                    <h5 class="mt-0">Rahul Sharma</h5>
+                    <p class="text-secondary">Since I've started using ONESPY, I feel like I’ve got the perfect parental control instrument for my family. The parental control
+                        apps I've used so far for my family, ONESPY is the most consistent.</p>
+                </div>
+        </div>
+        <div class="mySlides text-center">
+                <img class="mr-3" src="/images/girl.png" width="120px">
+                <div class="media-body">
+                    <h5 class="mt-0">Priya Chauhan</h5>
+                    <p class="text-secondary">My husband is proud of me, my kids are proud of me, but most of all, I’m proud
+                        of myself for never giving up, no matter how bad it got. ONESPY gave a step-by-step guide to keep my children protected.</p>                </div>
+        </div>
+        <div class="mySlides text-center">
+                <img class="mr-3" src="/images/girl-2.png" width="120px">
+                <div class="media-body">
+                    <h5 class="mt-0">Aashi Khanna</h5>
+                    <p class="text-secondary">Since I've started using ONESPY, I feel like I’ve got the perfect parental
+                        control instrument for my family. The parental control apps I've used so far for my family, ONESPY is the most consistent.</p>                </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+<section>
+     <div class="container-fluid">
+         <div class="container">
+             <div class="row"></div>
+             <h1>Hidden Voice Recorder
+                 Remotely listen to all sounds near the target device</h1>
+         </div>
+     </div>
+</section>
 {%- endblock %}

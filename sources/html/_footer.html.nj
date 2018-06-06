@@ -1,0 +1,61 @@
+<footer class=" mt-4 py-5" style="background: #e3f2fd;">
+  <div class="container-fluid">
+      <div class="container">
+          <div class="row">
+                <div class="col-md-3 col-6 col-xs-12 ">
+                        <h4>Quick Links</h4>
+                            <ul class="list-unstyled list border-right">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Buy Now</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Compatibility</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Employee Tracking</a></li>
+                            </ul>
+                    </div>
+              <div class="col-md-3 col-6 col-xs-12">
+                      <h4>About Us</h4>
+                      <ul class="list-unstyled list border-right">
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Buy Now</a></li>
+                          <li><a href="#">Features</a></li>
+                          <li><a href="#">Compatibility</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="#">Employee Tracking</a></li>
+                      </ul>
+              </div>
+              <div class="col-md-3 col-6 col-xs-12">
+                  <h4>Compability</h4>
+                  <ul class="list-unstyled list border-right">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Buy Now</a></li>
+                      <li><a href="#">Features</a></li>
+                      <li><a href="#">Compatibility</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Employee Tracking</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-6 col-xs-12">
+                  <h4>Secure Payments</h4>
+                  <p> We accept payments via all major debit, credit cards, internet banking and PayPal</p>
+                  <img src="/images/facebook.png" class="mr-2"><img src="/images/google.png" class="mr-2"><img src="/images/pinterest.png" class="mr-2">
+                  <img src="/images/twitter.png">
+              </div>
+             </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<section>
+    <div class="container-fluid py-5"style=" color: #8e99b3; background: #edf6fd;">
+        <div class="container">
+        <h4>Disclaimer</h4>
+            <p>SOFTWARE INTENDED FOR LEGAL & ETHICAL USE CASES ONLY. Please check your state or country laws before using monitoring
+                software or consult your lawyer before downloading, installing or using Onespy. By purchasing Onespy, the subscriber
+                takes the full responsibility for making sure that you notify & install the Onespy on your kid/child/minor's phone
+                before him/her with proper consent.(P)
+             </p>
+        </div>
+    </div>
+</section>
+

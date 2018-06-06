@@ -1,28 +1,334 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+$primary: #1397f1 !default;
+$secondary: #75736E;
+$danger: #ec5d5d;
+$info: #ffb329;
+$success: #73cf56;
+$border-radius: 50px;
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-$code-bg: #efb371;
-$code-color: #636363;
-$bg-yellow: #fffdf3;
-$font-family: 'Raleway', sans-serif;
+//.box {
+//
+//  background: $primary;
+//  border-radius: none;
+//  border: $border-width solid darken($primary, 5%);
+//  box-shadow: 0 16px 24px 1px rgba(0, 0, 0, .2),
+//    inset 0 1px 0 rgba(255, 255, 255, .75),
+//    inset 0 -1px 0 rgba(0, 0, 0, .25);
+//  display: block;
+//  &-alt {
+//    background: $info;
+//    border-color: darken($info, 5%);
+//    &-2 {
+//      background: $danger;
+//      border-color: darken($danger, 5%);
+//    }
+//  }
+//  &, &:hover, &:visited {
+//    color: white;
+//  }
+//  &:hover {
+//    background: lighten($primary, 10%);
+//  }
+//  &-alt:hover {
+//    background: lighten($info, 10%);
+//  }
+//  &-alt-2:hover {
+//    background: lighten($danger, 10%);
+//  }
+//}
 
-html, body {
-  margin: 0;
-  padding: 0;
+
+.section-1 {
+  background: url("../images/header.png");
+  background-size: cover;
+  height: auto;
+  width: 100%;
 }
 
-body {
-  background: $code-bg;
-  font-family: $font-family;
-  padding: 24px;
+.btn {
+  padding: 15px 23px;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(to right,#37cfd9 , #1498f1);
+}
+
+.section-2 h1{
+  color: $primary;
+}
+.section-2 p{
+  color: #75736E;
+}
+.my-40{
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+.background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+.install-box:hover {
+      background: #f1f1f1;
+      color: white;
+      transform: translateY(-20px);
+      transition: 0.2s;
+      border-radius: 10px;
+    }
+.install-box{
+  transition: 0.2s;
+}
+
+
+.background::after {
+  content: '';
+  background: #60a9ff;
+  background: linear-gradient(to right,#37cfd9 , #1498f1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: -5%;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.pricing-table {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.pricing-table * {
+  text-align: center;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+.pricing-plan h2 {
+  color: $primary;
+}
+
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  color: $secondary;
+  font-weight: 600;
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 15px;
+
+  padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 50px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+a{
+  text-decoration: none;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+  text-decoration: none;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff;
+}
+.section-3 h1{
+  color: $primary;
+}
+
+.circle{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to right,#37cfd9 , #1498f1);
+  transform: translateY(-18px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  transition: all 0.1s ease-out;
+}
+.fas ,.fab ,.far{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) ;
+  font-size: 25px;
+  color: #fff;
+  transition: all 0.1s ease-out;
+}
+.box:hover{
+  .circle{
+    transition: all 0.5s;
+    width: 70px;
+    height: 70px;
+  }
+}
+.list  a {
+  text-decoration: none;
+  color: #8e99b3;
+}
+
+footer{
+  color: #8e99b3;
+  background-size: cover;
+}
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+  color: inherit;
+  color: white;
+  text-decoration: none;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: $primary;
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
 
 }
 
-code {
-  background: $code-bg;
-  color: $code-color;
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-h1 { margin-top: 0 0;
-    color:$bg-yellow;
-    font-size:100px;}
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #007bff;
+}
 
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+@media only screen and (max-width: 600px) {
+  .section-1 {
+    background: url("../images/mobile-header.jpg");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+  }
+}
